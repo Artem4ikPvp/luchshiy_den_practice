@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лучший день — Организация стильных свадеб</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo">
+        <span class="logo__icon">○</span>
+        <span class="logo__text">Лучший день</span>
+      </a>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" hidden>
+      <label for="menu-toggle" class="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </label>
+      <nav class="nav">
+        <a href="#hero" class="nav__link">Главная</a>
+        <a href="#about" class="nav__link">О нас</a>
+        <a href="#services" class="nav__link">Услуги</a>
+        <a href="#process" class="nav__link">Как мы работаем</a>
+        <a href="#portfolio" class="nav__link">Портфолио</a>
+        <a href="#contacts" class="nav__link">Контакты</a>
+      </nav>
+      <a href="tel:+79636778185" class="header__phone">8 963 677 81 85</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <h1 class="hero__title">Делаем стильные свадьбы<br>на любой бюджет</h1>
+      <p class="hero__subtitle">Вызовем для вас такси до места встречи</p>
+      <a href="#contacts" class="btn btn--blue">Обсудить встречу</a>
+    </div>
+  </section>
+
+  <!-- About — blue bg, plain text, no cards -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="about__title">
+        Свадьба с нами дешевле и проще,<br>
+        <span class="about__title-yellow">чем свадьба без нас</span>
+      </h2>
+      <p class="about__lead about__lead--yellow">Почему? Никакой магии всё объяснимо.</p>
+
+      <div class="about__cols">
+        <div class="about__col">
+          <h3 class="about__heading">У нас всегда выгодные условия от подрядчиков</h3>
+          <p class="about__text">Все площадки и подрядчики заинтересованы работать с агентством, потому что мы приводим клиентов, а значит у нас всегда будут самые выгодные условия сотрудничества и скидки. А еще все подрядчики будут особенно тщательно следить за качеством, чтобы мы вернулись к ним с новыми заказами.</p>
+        </div>
+        <div class="about__col">
+          <h3 class="about__heading">Ваш гонорар входит в наш бюджет</h3>
+          <p class="about__text">Расходы на наши услуги уже входят в оговоренный заранее бюджет и вы не потратите ни копейкой больше.</p>
+        </div>
+        <div class="about__col">
+          <h3 class="about__heading">Мы предложим лучшие варианты для вашего бюджета</h3>
+          <p class="about__text">Мы знаем рынок площадок и подрядчиков, а значит вам не придется тратить несколько месяцев на его изучение. Мы предоставим вам лучшие варианты в вашем бюджете, а вы выберете из них то, что вам по душе.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA strip under about -->
+  <section class="about-cta">
+    <div class="container about-cta__inner">
+      <p>Выезжаем для вас также до места встречи.</p>
+      <a href="#contacts" class="btn btn--outline-dark">Обсудить встречу</a>
+    </div>
+  </section>
+
+  <!-- Services — 7 cards, black buttons with white border -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-title">Наши услуги</h2>
+      <div class="services__grid">
+
+        <article class="service-card">
+          <div class="service-card__img-wrap">
+            <img src="images/s1.jpg" alt="" class="service-card__img">
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Организация свадьбы под ключ</h3>
+            <p class="service-card__text">Мы делаем стильные свадьбы на любой бюджет. Наш гонорар уже входит в ваш бюджет и не выйдет за его пределы. Мы берем 10% от бюджета вашей свадьбы, но не менее 50 000 рублей. Камерные свадьбы обсуждаются индивидуально.</p>
+            <div class="service-card__footer">
+              <a href="#contacts" class="btn btn--order">Заказать</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__img-wrap">
+            <img src="images/s2.jpg" alt="" class="service-card__img">
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Подбор идеальной площадки</h3>
+            <p class="service-card__text">Фото многих площадок сильно отличаются от реальности, поэтому каждую потенциально подходящую площадку нужно увидеть вживую. Мы отсмотрели сотни площадок и сразу же предоставим вам только те, которые вам подойдут.</p>
+            <div class="service-card__footer">
+              <span class="service-card__price">5000 р.</span>
+              <a href="#contacts" class="btn btn--order">Заказать</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__img-wrap">
+            <img src="images/s3.jpg" alt="" class="service-card__img">
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Ведущий, музыка, шоу</h3>
+            <p class="service-card__text">Мы поможем подобрать ведущего, с которым будем весело и не стыдно. Разработаем сценарий, тайминг, подберем диджея и музыку, под которую все будут танцевать. Организуем кавер группу или пригласим звезду.</p>
+            <div class="service-card__footer">
+              <span class="service-card__price">5000 р.</span>
+              <a href="#contacts" class="btn btn--order">Заказать</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__img-wrap">
+            <img src="images/s4.jpg" alt="" class="service-card__img">
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Координатор</h3>
+            <p class="service-card__text">Возможно, вы все уже придумали и организовали самостоятельно. Но в день свадьбы невеста должна отдыхать и веселиться, а не отвечать на звонки опаздывающих гостей и координировать подрядчиков. Позвольте себе расслабиться, пока координатор возьмет на себя решение всех вопросов.</p>
+            <div class="service-card__footer">
+              <span class="service-card__price">10000 р.</span>
+              <a href="#contacts" class="btn btn--order">Заказать</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__img-wrap">
+            <img src="images/s5.jpg" alt="" class="service-card__img">
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Подбор фотографа, видеографа</h3>
+            <p class="service-card__text">Возможно, сейчас вам кажется, что после свадьбы вы не будете пересматривать фото и видео. Просто поверьте, это не так. Мы поможем выбрать фотографа и видеографа, которые будут точно соответствовать вашему запросу.</p>
+            <div class="service-card__footer">
+              <span class="service-card__price">5000 р.</span>
+              <a href="#contacts" class="btn btn--order">Заказать</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__img-wrap">
+            <img src="images/s6.jpg" alt="" class="service-card__img">
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Аудит свадебного дня</h3>
+            <p class="service-card__text">Вы все организовали самостоятельно, но осталось ощущение незавершенности, и нет 100% уверенности, что вы продумали все детали? Мы можем обсудить вашу свадьбу, помочь в составлении тайминга, проверить площадку и всех подрядчиков, доработать меню и закрыть все оставшиеся вопросы.</p>
+            <div class="service-card__footer">
+              <span class="service-card__price">5000 р.</span>
+              <a href="#contacts" class="btn btn--order">Заказать</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__img-wrap">
+            <img src="images/s7.jpg" alt="" class="service-card__img">
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Вебинар «как оптимизировать свадебный бюджет, не потеряв в качестве»</h3>
+            <p class="service-card__text">Вебинар подойдет всем, кто планирует свадьбу с любым бюджетом. На вебинаре вы узнаете: 20 способов грамотно сэкономить, не потеряв в качестве. То, на чем никогда нельзя экономить.</p>
+            <div class="service-card__footer">
+              <span class="service-card__price">1000 р.</span>
+              <a href="#contacts" class="btn btn--order">Заказать</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Process — blue bg, plain numbers, title left / text right -->
+  <section class="process" id="process">
+    <div class="container">
+      <h2 class="section-title section-title--on-blue">Как мы работаем</h2>
+      <div class="process__list">
+        <div class="process__row">
+          <div class="process__left">
+            <span class="process__num">1</span>
+            <h3 class="process__title">Встреча. Длится 1 день</h3>
+          </div>
+          <p class="process__text">На встрече мы обсудим ваши ожидания и составим первую примерную смету вашей свадьбы.</p>
+        </div>
+        <div class="process__row">
+          <div class="process__left">
+            <span class="process__num">2</span>
+            <h3 class="process__title">Заключение договора. Длится 1 день</h3>
+          </div>
+          <p class="process__text">Мы фиксируем в договоре бюджет вашей свадьбы и наш гонорар.</p>
+        </div>
+        <div class="process__row">
+          <div class="process__left">
+            <span class="process__num">3</span>
+            <h3 class="process__title">Подготовка к свадьбе. Длится 10 дней — 10 месяцев</h3>
+          </div>
+          <div class="process__text">
+            <ul class="process__bullets">
+              <li>Разработка концепции свадьбы</li>
+              <li>Подбор площадки</li>
+              <li>Подбор ведущего, диджея, фотографа, видеографа, кавер-группы</li>
+              <li>Подбор декоратора, визуализация декора свадьбы</li>
+              <li>Подбор необходимого оборудования и технических специалистов</li>
+              <li>Составление тайминга и сценария свадьбы</li>
+              <li>Организация всей логистики</li>
+              <li>Помощь в размещении гостей (при необходимости)</li>
+              <li>Помощь в создании образа жениха и невесты (при необходимости)</li>
+              <li>Постановка свадебного танца</li>
+              <li>Дизайн приглашений</li>
+              <li>Составление меню</li>
+              <li>Расчет необходимого количества алкоголя</li>
+              <li>Торт</li>
+              <li>Разработка музыкального сопровождения свадьбы</li>
+              <li>Контроль всех подрядчиков</li>
+            </ul>
+          </div>
+        </div>
+        <div class="process__row">
+          <div class="process__left">
+            <span class="process__num">4</span>
+            <h3 class="process__title">Проведение свадьбы. Один день</h3>
+          </div>
+          <p class="process__text">Координация свадебного дня с утра и до конца мероприятия.</p>
+        </div>
+        <div class="process__row">
+          <div class="process__left">
+            <span class="process__num">5</span>
+            <h3 class="process__title">Сдача материала. Один-два месяца</h3>
+          </div>
+          <p class="process__text">Контроль сдачи всех материалов подрядчиками.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QR -->
+  <section class="qr-section">
+    <div class="container qr-section__inner">
+      <p class="qr-section__text">Наведите камеру на QR код, и у вас откроется чат с нашим менеджером WhatsApp</p>
+      <img src="images/qr.png" alt="QR-код WhatsApp" class="qr-section__img" width="120" height="120">
+    </div>
+  </section>
+
+  <!-- Portfolio — 4 photos per couple -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="section-title">Портфолио</h2>
+      <div class="portfolio__list">
+        <div class="portfolio__couple">
+          <p class="portfolio__name">Георгий и Анна</p>
+          <div class="portfolio__photos">
+            <img src="images/pf01.jpg" alt="" class="portfolio__img">
+            <img src="images/pf02.jpg" alt="" class="portfolio__img">
+            <img src="images/qr.jpg" alt="" class="portfolio__img">
+            <img src="images/pf04.jpg" alt="" class="portfolio__img">
+          </div>
+        </div>
+        <div class="portfolio__couple">
+          <p class="portfolio__name">Дарья и Кирилл</p>
+          <div class="portfolio__photos">
+            <img src="images/pf05.jpg" alt="" class="portfolio__img">
+            <img src="images/pf06.jpg" alt="" class="portfolio__img">
+            <img src="images/service-d.jpg" alt="" class="portfolio__img">
+            <img src="images/pf08.jpg" alt="" class="portfolio__img">
+          </div>
+        </div>
+        <div class="portfolio__couple">
+          <p class="portfolio__name">Марина и Дмитрий</p>
+          <div class="portfolio__photos">
+            <img src="images/pf09.jpg" alt="" class="portfolio__img">
+            <img src="images/pf10.jpg" alt="" class="portfolio__img">
+            <img src="images/pf11.jpg" alt="" class="portfolio__img">
+            <img src="images/pf12.jpg" alt="" class="portfolio__img">
+          </div>
+        </div>
+        <div class="portfolio__couple">
+          <p class="portfolio__name">Ирина и Алексей</p>
+          <div class="portfolio__photos">
+            <img src="images/pf13.jpg" alt="" class="portfolio__img">
+            <img src="images/pf14.jpg" alt="" class="portfolio__img">
+            <img src="images/pf15.jpg" alt="" class="portfolio__img">
+            <img src="images/pf16.jpg" alt="" class="portfolio__img">
+          </div>
+        </div>
+        <div class="portfolio__couple">
+          <p class="portfolio__name">Валерия и Илья</p>
+          <div class="portfolio__photos">
+            <img src="images/pf17.jpg" alt="" class="portfolio__img">
+            <img src="images/p20.jpg" alt="" class="portfolio__img">
+            <img src="images/pf19.jpg" alt="" class="portfolio__img">
+            <img src="images/pf20.jpg" alt="" class="portfolio__img">
+          </div>
+        </div>
+        <div class="portfolio__couple">
+          <p class="portfolio__name">Мария и Алексей</p>
+          <div class="portfolio__photos">
+            <img src="images/pf21.jpg" alt="" class="portfolio__img">
+            <img src="images/p08.jpg" alt="" class="portfolio__img">
+            <img src="images/pf23.jpg" alt="" class="portfolio__img">
+            <img src="images/pf22.jpg" alt="" class="portfolio__img">
+          </div>
+        </div>
+      </div>
+      <p class="portfolio__more">Больше фото в нашем instagram-аккаунте →</p>
+    </div>
+  </section>
+
+  <!-- Subscribe dark -->
+  <section class="subscribe">
+    <div class="container">
+      <div class="subscribe__icon">✉</div>
+      <p class="subscribe__text">Оставьте свою почту, и мы будем присылать вам<br>лучшие идеи, советы и акции для вашей свадьбы</p>
+      <form class="subscribe__form" action="#" method="get">
+        <input type="email" name="email" placeholder="Ваш email" required class="subscribe__input">
+        <button type="submit" class="btn btn--blue">Отправить</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Contacts -->
+  <section class="contacts" id="contacts">
+    <div class="container contacts__inner">
+      <div class="contacts__form-wrap">
+        <h2 class="contacts__title">Оставить заявку</h2>
+        <form class="contacts__form" action="#" method="get">
+          <div class="form-group">
+            <label for="name">Имя</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Телефон</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Почта</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <button type="submit" class="btn btn--white">Отправить</button>
+        </form>
+      </div>
+      <div class="contacts__info">
+        <h2 class="contacts__title">Контакты</h2>
+        <address class="contacts__address">
+          <p>Znamenka St., 11, Moscow</p>
+          <p><a href="mailto:hello@uprock.pro">hello@uprock.pro</a></p>
+          <p><a href="tel:+79225551234">+7 922 555 1234</a></p>
+        </address>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#hero" class="logo logo--footer">
+        <span class="logo__icon">○</span>
+        <span class="logo__text">Лучший день</span>
+      </a>
+      <p class="footer__copy">© 2025 Лучший день</p>
+    </div>
+  </footer>
+
+</body>
+</html>
